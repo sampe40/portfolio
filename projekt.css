@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body{background-color:black; background-image:url('bakgrund.jpg');  background-repeat: no-repeat top center; background-size: cover; width: 100%; height: 100%; padding: 0; margin:0; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15x;
+    line-height:1.5;
+}
+
+.container {
+width: 80%;
+margin: auto;
+overflow: hidden;
+}
+
+/*header*/
+
+header {
+background-color: white;
+padding-top: 30px;
+min-height: 70px;
+border-bottom: lightblue 4px solid;
+
+}
+header a{color: black; text-decoration: none; font-size: 20px;} 
+ header a:hover {
+color:skyblue;
+}
+
+
+header ul {
+padding: 0;
+margin: 0;
+
+}
+
+header li {
+display: inline;
+padding: 0 20px 0 20px;
+}
+
+header #branding {
+float: left;
+}
+header #branding h1 {
+margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header h1 {
+color: lightblue;
+font-weight: bold;
+font-size: 2em;
+
+}
+nav .current a{
+color: lightblue;
+}
+
+/*huvudmeny*/
+#huvudmeny {
+min-height:400px;
+background: url('huvudmeny.jpg') no-repeat; background-size: cover;
+border-bottom: lightblue 4px solid;
+text-align: center;
+color: lightblue;
+}
+#huvudmeny h1 {
+    margin-top: 100px;
+    font-size: 40px;
+}
+/* Undersida */
+.undersida {
+    min-height: 70px;
+    padding: 15px;
+    background: white;
+    border-bottom: lightblue 4px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.undersida ul {
+padding: 0;
+margin: 0 auto;
+
+
+
+}
+
+.undersida li {
+    display: inline;
+    padding: 0 20px 0 20px;
+   
+    
+   
+    
+    
+}
+.highlight {
+    color: lightblue;
+}
+
+
+/* Om oss */ 
+#omOss {
+background-color: white;
+margin:60px 60px 60px 60px;
+padding: 0;
+border: lightblue 4px solid;
+text-align: center;
+
+}
+#omOss h1 {
+color: lightblue;
+margin-top: 50px;
+}
+
+#omOss .box {
+    width: 25%;
+    height: 25%;
+    margin: 0 auto;
+    margin-top: 75px;
+    border-bottom: lightblue 2px dotted;
+   
+}
+#omOss .box h1 {
+    
+   color: lightblue;
+   font-size: 30px;
+
+
+}
+#omOss .box p {
+font-size: 15px;
+
+
+}
+#omOss .box a {
+color: blue;
+text-decoration: none;
+}
+#omOss .box img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 4px lightblue solid;
+    text-align: center;
+
+}
+/* Personlig sida Jaocb */
+
+/* Kontaktsida */
+
+
+.kontaktform {
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: sans-serif;
+    
+
+}
+.kontaktform h1 {
+    margin-top: 0;
+    font-weight: 200;
+}
+.textB {
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.textB label {
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.textB input,.textB textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.btn {
+    display: block;
+    background:black;
+    padding: 14px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    color: lightblue;
+
+}
